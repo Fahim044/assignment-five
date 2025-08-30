@@ -4,8 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Emergency Hotline</title>
+    <!-- daisy ui -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+<!-- font awesome -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    
+    <header>
+        <!-- nav part -->
+        <nav class="flex justify-between items-center lg:m-3 m-1">
+            <div class="flex lg:gap-2 gap-1">
+                <img src="assets/logo.png" alt="" class="h-[50px]">
+                <h2 class="text-[#006747] font-extrabold">Emergency<br> Service</h2>
+            </div>
+            <div class="flex lg:gap-3 gap-2 ">
+                <button class="btn rounded-3xl bg-[#41ff7a1a] lg:w-20 w-16 "><span id="heart-no" class="font-bold">0</span><img src="assets/heart.png" alt="" class="h-[30px]"></button>
+                <button class="btn rounded-3xl bg-[#41ff7a1a] lg:w-20 w-16"><span  id="coin-no" class="font-bold">100</span><img src="assets/coin.png" alt="" class="h-[30px]"></button>
+                <button class="btn rounded-3xl bg-[#00A63E] text-white lg:w-20 w-16"><span id="copy-no">0</span> Copy</button>
+                
+            </div>
+        </nav>
+        <!-- head after nav part -->
+        <div class="mt-3 min-h-[200px] w-full bg-gradient-to-r from-[#013223] via-[#006747] to-[#013223]  flex flex-col gap-2 items-center align-middle justify-center">
+            <img src="assets/logo-dark.png" alt="" class="h-[80px]">
+            <h1 class="text-white font-bold  lg:text-[34px] text-2xl text-center">Emergency Service Directory</h1>
+            <p class="text-white text-center">Government Emergency Services at Your Fingertip – A Project by  Government of the People’s Republic of Bangladesh</p>
+        </div>
+    </header>
 </body>
 </html>
